@@ -25,3 +25,11 @@ Pode-se utilizar o comando "while" ou até o "for" para te ajudar nisso.
 
 Fonte: Curso em vídeo.
 """
+numero = int(input("Digite um número:"))
+contador = 1
+fatoral = 1
+
+while contador < numero:
+  fatoral *= contador + 1
+  contador += 1
+print(f'O fatorial de {numero} é {fatoral}')
