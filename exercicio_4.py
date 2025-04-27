@@ -41,7 +41,7 @@ lista_de_organismos = [[50, 50, 50], [125, 99, 12], [19, 91, 42], [40, 189, 0], 
 
 # Fazer a partir daqui
 
-posicao_organismo = 0
+posicao_organismo = 1
 maior_organismo = 0
 maior_media = 0
 for organismo in lista_de_organismos:
